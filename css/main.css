@@ -1413,7 +1413,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .footer {
-    padding: 0;
+    padding: 60px 0;
   }
 }
 
@@ -1648,7 +1648,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .footer__container {
-    max-width: 480px;
+    width: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

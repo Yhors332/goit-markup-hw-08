@@ -174,7 +174,7 @@
     display: flex;
     /* outline: 3px solid tomato; */
     @media screen and(max-width: 767px) {
-        max-width: 480px;
+        width: 480px;
         display: flex;
         flex-direction: column ;
         text-align: center;
