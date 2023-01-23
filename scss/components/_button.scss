@@ -18,24 +18,30 @@
 }
 
 .menu__btn {
+    
     @media screen and (max-width: 767px) {
         width: 40px;
         height: 40px;
         display: inline-flex;
-        
         justify-content: center;
-        
+
         align-items: center;
         margin: 0px;
         padding: 0px;
         border: none;
         background-color: transparent;
         color: rgb(47, 47, 55);
-        cursor: pointer;
+        cursor: pointer
     }
     @media screen and (min-width: 768px) {
         display: none;
     }
+}
+
+.menu__btn-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .hero__btn {

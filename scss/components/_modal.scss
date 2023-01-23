@@ -57,6 +57,11 @@
 
         color: var(--primary-text-color);
         margin-bottom: 12px;
+
+        @media screen and (max-width: 767px) {
+            max-width: 370px;
+
+        }
     }
 
     &__field {
@@ -74,7 +79,11 @@
         line-height: 1.17;
         letter-spacing: 0.01em;
 
-
+        @media screen and (max-width: 767px) {
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+        }
     }
 
     &__input {
