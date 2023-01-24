@@ -151,16 +151,16 @@
     padding: 0 15px;
     /* outline: 2px solid tomato; */
     @media screen and(max-width: 767px) {
-        width: 100%;
+        width: 480px;
         margin-left: auto;
         margin-right: auto;
         padding: 0 15px;
     }
     @media screen and(min-width: 768px) {
-        width: 100%;
+        width: 768px;
     }
     @media screen and(min-width: 1200px) {
-        width: 100%;
+        width: 1200px;
     }
 }
 
