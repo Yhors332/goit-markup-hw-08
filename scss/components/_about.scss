@@ -42,7 +42,7 @@
     }
 
     &__icon {
-        width: 270px;
+        
         height: 120px;
         background-color: var(--background-primary-color);
         display: flex;
@@ -55,11 +55,11 @@
             }
 
         @media screen and (min-width: 768px) {
-            min-width: 354px;            
+            width: 100%;            
         }
 
         @media screen and (min-width: 1200px) {
-            min-width: 100%;
+            width: 100%;
         }
     }
 
@@ -86,6 +86,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 1.71;
+            margin: 0 0 30px;
         }
 
     }
