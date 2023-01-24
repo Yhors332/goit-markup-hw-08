@@ -1725,7 +1725,6 @@ a {
 }
 @media screen and (min-width: 768px) {
   .footer__container .block {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1741,7 +1740,6 @@ a {
     display: -ms-flexbox;
     display: flex;
     gap: 0;
-    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1754,7 +1752,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    margin-left: 61px;
+    margin-left: 76px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1828,7 +1826,7 @@ a {
   .footer__container .feature {
     width: 100%;
     text-align: center;
-    margin: 12px 74px 0 0;
+    margin: 12px 89px 0 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1927,7 +1925,6 @@ a {
 }
 @media screen and (min-width: 768px) {
   .footer__container .form-footer {
-    width: 768px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
